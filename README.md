@@ -19,5 +19,7 @@ https://docs.progress.com/bundle/openedge-kafka-guide/page/How-to-Set-Up-Apache-
 - Clone the repository
 - Open PDSOE and import the new folder as existing project into PDSOE workspace
 - Navigate with CMD to the 'docker' folder inside the repository and execute this command:
-- > docker-compose up
+``` 
+docker-compose up
+```
 - Now use the different procedures in the 'procedures' folder to start the producer/consumer and create/listen for Kafka messages   
