@@ -26,10 +26,9 @@ using Progress.Json.ObjectModel.*.
 var kafka.consumer consumer.
 var JsonObject joResponse.
 
-consumer = new kafka.consumer("transactions").
+consumer = new kafka.consumer("my-topic").
 
-
-joResponse = consumer:getMessage().
+joResponse = consumer:getMessage() no-error.
 
 message string(joResponse:GetJsonText()) view-as alert-box.
 

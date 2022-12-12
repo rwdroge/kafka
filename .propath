@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<propath version="12.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/propath.xsd">
-    <propathentry env="all" kind="lib" path="C:\dlc\12.5\tty\messaging\OpenEdge.Messaging.pl" platform="Windows"/>
+<propath version="12.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema/propath.xsd">
+    <propathentry env="all" kind="lib" path="C:\dlc\12.6\tty\messaging\OpenEdge.Messaging.pl" platform="Windows"/>
     <propathentry env="all" kind="src" path="@{ROOT}" platform="All"/>
     <propathentry env="all" kind="src" path="@{ROOT}\AppServer" platform="All"/>
     <propathentry env="all" kind="dir" path="@{WORK}" platform="All"/>
